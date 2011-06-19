@@ -1,13 +1,15 @@
 source 'http://rubygems.org'
 
-gem 'rails', '3.0.9'
-gem 'mysql2', '0.2.6'
-gem 'jquery-rails'
+gem 'activeadmin'
 gem 'devise'
+gem 'jquery-rails'
+gem 'mysql2', '0.2.6'
+gem 'rails', '3.0.9'
 
 group :test, :development do
-  gem 'rspec-rails'
-  gem 'mocha'
-  gem 'shoulda'
   gem 'factory_girl_rails'
+  gem 'mocha'
+  gem 'ruby-debug19'
+  gem 'rspec-rails'
+  gem 'shoulda'
 end
