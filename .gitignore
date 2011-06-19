@@ -1,0 +1,8 @@
+.DS_Store
+.rvmrc
+.sass-cache/
+.bundle
+db/*.sqlite3
+log/*.log
+tmp/
+coverage/
