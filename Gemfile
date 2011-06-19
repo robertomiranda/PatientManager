@@ -3,7 +3,7 @@ source 'http://rubygems.org'
 gem 'activeadmin'
 gem 'devise'
 gem 'jquery-rails'
-gem 'mysql2', '0.2.6'
+gem 'mysql2', '0.2.7'
 gem 'rails', '3.0.9'
 
 group :test, :development do
